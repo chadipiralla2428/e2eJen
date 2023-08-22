@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/Jen") 
 public class restController {
-	@GetMapping
+	@GetMapping()
 	public String JenDemo() {
 		return "Welcome to e2e Jenkins";
 	}
